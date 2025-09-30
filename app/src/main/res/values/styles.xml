@@ -1,0 +1,56 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ElderlyContacts" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryDark</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:buttonStyle">@style/LargeButton</item>
+    </style>
+
+    <style name="Theme.ElderlyContacts" parent="Base.Theme.ElderlyContacts" />
+
+    <!-- Circular image style -->
+    <style name="CircleImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="CircleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Large button style for elderly users -->
+    <style name="LargeButton" parent="Widget.Material3.Button">
+        <item name="android:minHeight">60dp</item>
+        <item name="android:minWidth">120dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <!-- Large text input style -->
+    <style name="LargeTextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="android:minHeight">70dp</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
+    <!-- Large text style -->
+    <style name="LargeText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:lineSpacingMultiplier">1.3</item>
+    </style>
+
+    <!-- Header text style -->
+    <style name="HeaderText">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">16dp</item>
+    </style>
+</resources>

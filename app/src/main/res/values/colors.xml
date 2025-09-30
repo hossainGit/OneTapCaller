@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorSecondary">#FF4081</color>
+    <color name="colorSecondaryDark">#F50057</color>
+    <color name="background">#FAFAFA</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="delete_red">#F44336</color>
+    <color name="success_green">#4CAF50</color>
+    <color name="background_light">#F8F9FA</color>
+    <color name="edit_mode_primary">#FF6B35</color>  <!-- Orange color for edit mode -->
+    <color name="edit_mode_primary_light">#FFF5F2</color>
+    <color name="edit_mode_text">#D84315</color>  <!-- Darker orange for text in edit mode -->
+
+    <!-- Edit Mode Specific Colors -->
+    <color name="edit_mode_background">#F8F9FA</color>
+    <color name="edit_mode_primary_dark">#E55A2B</color>
+
+    <!-- Warning Colors -->
+    <color name="warning_light">#FFF3E0</color>
+    <color name="warning_border">#FFB74D</color>
+    <color name="warning_dark">#FF9800</color>
+
+
+</resources>
